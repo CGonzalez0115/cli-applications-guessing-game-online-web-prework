@@ -10,13 +10,10 @@ end
   when "number generates prompt user to guess a number between 1 and 6"
 },
 {
-when "user inputs answer compare that to the random number generated"
+  when "user inputs answer compare that to the random number generated"
+  if "user's input matches the random number print, 'You guessed the correct number!'"
+    if "user's input DOES NOT matches the random number, print 'Sorry! The computer guessed <number>.'"
+      if "user's input is equal to 'exit', print 'Goodbye!'"
 },
 
-Capture user input from the command line
-Compare that input to the random number that has been generated
-Print out one of three statements:
-If the user's input matches the random number: You guessed the correct number!
-If the user's input DOES NOT matches the random number: Sorry! The computer guessed <number>.
-It the user's input is equal to "exit": Goodbye!
-Run learn to see your progress and learn submit when you've solved the lab.
+end
